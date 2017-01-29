@@ -21,7 +21,7 @@
             for (var i = 0; i < dataSet.length; i++) {
                 if (dataSet[i].date === "2016/8/1" && dataSet[i].amount > 1000000000 && dataSet[i].city === "臺北市") {
                     d3.select("svg").append("rect").attr({
-                        x: 100
+                        x: 200
                         , y: 10 + 12 * count
                         , width: dataSet[i].amount / 100000000
                         , height: 10
